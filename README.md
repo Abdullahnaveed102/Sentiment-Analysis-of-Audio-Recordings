@@ -1,5 +1,15 @@
 # Audio Sentiment Analysis
 
+## Table of Contents
+
+1. [Abstract](#Abstract)
+2. [Introduction](#Introduction)
+3. [Methodology](#Methodology)
+4. [Identification and Extraction of Features](#Identification-and-Extraction-of-Features)
+5. [Mathematical Formulation](#Mathematical-Formulation)
+6. [Finding and Results](#Finding-and-Results)
+7. [Conclusion](#Conclusion)
+
 ## Abstract
 This repository presents a comprehensive methodology for performing audio sentiment analysis using natural language processing techniques and machine learning algorithms. The approach involves noise removal, feature extraction, and classifier training, demonstrated on the Crema D dataset with 7442 labeled audio clips showcasing various emotions.
 
@@ -10,7 +20,7 @@ Sentiment analysis, often focused on textual data, is extended to audio in this 
 The methodology details noise removal using the Butterworth method, dataset splitting, and the formulation of mathematical models (KNN, Logistic Regression, Naive Bayes, SVM, and Neural Network). Feature extraction involves techniques like MFCC, Chromagram, Mel-Spectrogram, and more.
 
 ## Identification and Extraction of Features
-This section explores audio features such as Fourier Transform, MFCC, Mel-Spectrogram, Chromagram, Bi-coherence, Spectral Centroid, Spectral Bandwidth, and Spectral Contrast. Extracted features provide valuable information for sentiment analysis.
+Exploring audio features such as Fourier Transform, MFCC, Mel-Spectrogram, Chromagram, Bi-coherence, Spectral Centroid, Spectral Bandwidth, and Spectral Contrast. Extracting features provide valuable information for sentiment analysis.
 
 ## Mathematical Formulation
 Mathematical formulations for machine learning models (KNN, Logistic Regression, Naive Bayes, SVM, Neural Network) are presented, outlining their use in multi-class classification for audio sentiment analysis.
@@ -23,6 +33,3 @@ The SVM classifier emerges as the optimal choice for audio sentiment detection i
 
 ## Dataset
 The study utilizes the Crema D dataset, containing 7442 labeled audio clips with diverse emotions and ethnic backgrounds.
-
-## Acknowledgments
-This work is built upon the Crema D dataset and leverages various machine learning and natural language processing techniques.
